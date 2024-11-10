@@ -1,0 +1,24 @@
+{
+  "name": "nft-market-place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass-embedded": "^1.80.6",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.1.0",
+    "@fontsource-variable/open-sans": "^5.1.0",
+    "@fontsource-variable/work-sans": "^5.1.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
+  }
+}
