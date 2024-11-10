@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/static/Inter_18pt-Regular.ttf");
+}
+@font-face {
+  font-family: "Source Sans";
+  src: url("../fonts/Source_Sans_3/static/SourceSans3-Regular.ttf");
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+:root {
+  /* Font families */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Source Sans", sans-serif;
+  --font-tertiary: "Playfair Display", sans-serif;
+  --body-color:#000000;
+  --primary-color:#d6ef0e;
+}
+
+/* Font family classes */
+.font-primary, body {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.font-tertiary {
+  font-family: var(--font-tertiary);
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--body-color);
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.primary-bg-color {
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */
