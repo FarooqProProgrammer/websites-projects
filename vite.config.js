@@ -8,7 +8,7 @@ import CleanBuild from 'vite-plugin-clean-build';
 
 const SPLIT_EXPERIENCE_MODULES = {
   react: ["react", "react-dom", "react-router-dom"],
-  coreui: ["@coreui/react"],
+  coreui: ["@coreui/react","bootstrap"],
 
 };
 
