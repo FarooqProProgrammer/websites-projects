@@ -1,0 +1,9 @@
+.our-story { 
+    h5 { 
+        @extend .ManRope;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 110%;
+        color: #000;
+    }
+}
